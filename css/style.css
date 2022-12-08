@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#hero{
+    height: 100vh;
+    background-image: url("../images/420657.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: center;
+    color: rgb(235, 232, 229);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+#hero .content{
+    height: 200px;
+    width: 400px;
+    text-align: center;
+}
+#hero h1{
+ font-size: 40px;
+}
+#hero h3{
+    font-size: 20px;
+}
+#hero button{
+    padding: 10px 40px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background: linear-gradient(to left, rgb(246, 249, 249),rgb(202, 202, 232));
+    color: rgb(26, 26, 25);
+    border: 3px solid rgb(15, 14, 14);
+    border-radius: 25px;
+    cursor: pointer;
+}
+#hero button:hover{
+    background: linear-gradient(to left, blue,rgb(114, 245, 238));
+
+}
+.container button{
+    padding: 10px 40px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background: linear-gradient(to left, rgb(246, 249, 249),rgb(202, 202, 232));
+    color: rgb(26, 26, 25);
+    border: 3px solid rgb(15, 14, 14);
+    border-radius: 25px;
+    cursor: pointer;
+}
+#Services h5{
+    margin-top: 100px;
+}
+#Services{
+    margin-top: 100px;
+    background-color: lightgray;
+}
+.card{
+    border: none;
+    outline: none;
+    -webkit-box-shadow: 6px 6px 41px -24px rgba(0,0,0,0.75);
+    box-shadow: 6px 6px 41px -24px rgba(0,0,0,0.75);
+    -moz-box-shadow:6px 6px 41px -24px rgba(0,0,0,0.75);
+}
